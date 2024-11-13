@@ -59,7 +59,7 @@ int	ft_printf(const char *format, ...)
 #include <stdio.h>
 int main()
 {
-	ft_printf("hello there i want to change somthing some thing frome good to great and death to all enemys im anonymous %d %i\n", 213);
-	printf("hello there i want to change somthing some thing frome good to great and death to all enemys im anonymous %d", 213);
+	ft_printf("hello th%cre i want to change s %d %i %u %s\n",'e', 213, 1337,-1,"hello friend");
+	printf("hello th%cre i want to change s %d %i %u %s\n",'e', 213, 1337,-1,"hello friend");
 	return (0);
 }
